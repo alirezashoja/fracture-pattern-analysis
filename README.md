@@ -22,3 +22,17 @@ The project demonstrates how deep learning techniques can assist in identifying 
 ---
 
 ## **Directory Structure**
+fracture-pattern-analysis/
+├── data/
+│   ├── NEU_Metal_Surface_Defects/  # Original dataset folder
+│   ├── X_train.npy          # Training data (excluded from repo, see below)
+│   ├── X_test.npy           # Testing data (excluded from repo, see below)
+│   ├── y_train.npy          # Training labels
+│   ├── y_test.npy           # Testing labels
+├── notebooks/
+│   ├── preprocessing.ipynb  # Data preprocessing steps
+│   ├── model_training.ipynb # CNN training and evaluation
+├── README.md                # Project documentation
+├── requirements.txt         # Python dependencies
+├── .gitignore               # Excluded files and directories
+└── .gitattributes           # Git LFS tracking (if applicable)
