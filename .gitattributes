@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+data/X_train.npy filter=lfs diff=lfs merge=lfs -text
+data/X_test.npy filter=lfs diff=lfs merge=lfs -text
+data/y_train.npy filter=lfs diff=lfs merge=lfs -text
+data/y_test.npy filter=lfs diff=lfs merge=lfs -text
