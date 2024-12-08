@@ -21,18 +21,22 @@ The project demonstrates how deep learning techniques can assist in identifying 
 
 ---
 
-## **Directory Structure**
-fracture-pattern-analysis/
-├── data/
-│   ├── NEU_Metal_Surface_Defects/  # Original dataset folder
-│   ├── X_train.npy          # Training data (excluded from repo, see below)
-│   ├── X_test.npy           # Testing data (excluded from repo, see below)
-│   ├── y_train.npy          # Training labels
-│   ├── y_test.npy           # Testing labels
-├── notebooks/
-│   ├── preprocessing.ipynb  # Data preprocessing steps
-│   ├── model_training.ipynb # CNN training and evaluation
-├── README.md                # Project documentation
-├── requirements.txt         # Python dependencies
-├── .gitignore               # Excluded files and directories
-└── .gitattributes           # Git LFS tracking (if applicable)
+---
+
+## **Dataset**
+The dataset used in this project is the **NEU Metal Surface Defects Dataset**, which contains grayscale images of six types of metal surface defects.
+
+### **Download the Dataset**
+The dataset files (`X_train.npy`, `X_test.npy`, etc.) are excluded from the repository due to file size limitations. You can obtain them as follows:
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/fantacher/neu-metal-surface-defects-data).
+2. Extract the dataset to the `data/NEU_Metal_Surface_Defects` directory.
+3. Run the `preprocessing.ipynb` notebook to preprocess the dataset.
+
+---
+
+## **How to Use**
+
+### **1. Install Dependencies**
+Make sure you have Python installed. Install the required libraries using:
+```bash
+pip install -r requirements.txt
